@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to CC!</title>
+<style>
+body{
+width: 80%;
+}
+.mytable{
+width: 100%;
+}
+table,td,th{
+border:1px solid red;
+border-collapse: collapse;
+font-size: 25px;
+}
+td:nth-child(odd){
+background-color: azure;
+}
+td:nth-child(even){
+background-color:lavender;
+}
+</style>
+</head>
+
+<body>
+
+<table class="mytable">
+<caption> <h3>Student Information</h3> </caption>
+<thead>
+<tr>
+<th>Sid </th>
+<th>Sname </th>
+<th>Email </th>
+<th>Phone </th>
+<th>Course1 </th>
+<th>Course2 </th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td rowspan="2">101 </td>
+<td rowspan="2">Lavanya </td>
+<td rowspan="2">Sri@jlc </td>
+<td>12345 </td>
+<td rowspan="2">Angular </td>
+<td rowspan="2">React </td>
+</tr>
+<tr>
+ 
+<td>Sri@jlc </td>
+<td>12345 </td>
+ 
+</tr>
+
+<tr>
+<td>103 </td>
+<td>Manasa </td>
+<td>manasa@gmail.com </td>
+<td>12345 </td>
+<td ="2">Jaca </td>
+</tr>
+<tr>
+<td>104 </td>
+<td>Vanaja </td>
+<td>vanaja@gmail.com </td>
+<td>12345 </td>
+<td>Python </td>
+</tr>
+<tr>
+<td rowspan="2">105 </td>
+<td>Sudheer </td>
+<td>sudheer@gmail.com </td>
+<td>12345 </td>
+<td rowspan="2">C++ </td>
+<td rowspan="2">Angular </td>
+</tr>
+<tr>
+<td>106 </td>
+<td>Cehnna </td>
+<td>chenna@gmail.com </td>
+<td>12345 </td>
+<td colspan="2">Embedded </td>
+</tr>
+<tr>
+<td>106 </td>
+<td>ds </td>
+<td>ds@jlc </td>
+<td>222 </td>
+<td>MongoDB </td>
+<td>Angular </td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>

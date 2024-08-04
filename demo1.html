@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS : Events -Listeners </title>
+<style>
+p{
+font-size: 25px;
+font-family: Cambria;
+border-radius: 15px;
+border: 2px solid red;
+margin: 50px;
+padding: 25px;
+}
+</style>
+</head>
+<body>
+<h2>Welcome to JLC!!!</h2>
+<p onclick="show1();"> JS Training </p>
+
+<p ondblclick="show2();"> React Training </p>
+
+<p onmouseover="show3();" onmouseout="show4();"> Angular Training </p>
+
+<script>
+window.alert("Hello Guys , How are You?");
+
+function show1(){
+window.alert("Click on JS Training");
+window.console.log('Click on JS Training');
+}
+
+function show2(){
+alert("Double Click on React Training");
+console.log('Double Click on JS Training');
+}
+
+function show3(){
+console.log('MouseOver on Angular Training');
+}
+
+function show4(){
+console.log('MouseOut on Angular Training');
+}
+</script>
+</body>
+</html>

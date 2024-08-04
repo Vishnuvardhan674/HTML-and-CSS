@@ -1,0 +1,87 @@
+<DOCKTYPE! html>
+<html>
+<head> 
+<title>Learning div and span</title>
+<style>
+ .left-menu,right-menu{
+ width:80%;
+ float:left:
+ margin-top:26px;
+ padding:10px;
+ border:20px;
+ }
+ .content{
+ width:60%;
+ float:left;
+ }
+ .left-menu > a,.right-menu > a{
+display: block;
+font-weight: bold;
+font-family: cambria;
+font-size: 20px;
+}
+.bold{
+font-weight: bold;
+font-family: cambria;
+font-size: 20px;
+}
+</style>
+
+<body>
+<div class="left-menu">
+<a href="#">Java Training</a>
+<a href="#">Python Training</a>
+Lab9.html
+www.coursecube.com 26 HTML 5
+<a href="#">Spring Training</a>
+<a href="#">Spring Boot Training</a>
+<a href="#">Angular Training</a>
+</div>
+<div class="content-section">
+ <h1>Java Training</h1>
+ <p id="frist-para" class="mybold" title="This is my First paragraph"
+ <span>First para:</span>gvghgrhfgueufgweufgw4ufguewigfrewugfiuewgfewuigfgewugfwufgtweufgewuifgefiuyhbgwiuvhewsduifvh
+ 
+ <p id="second-para" class="mybold" title="This is my second Paragraph">
+<span>second Para : </span> some 10 lines of text copy here
+</p>
+
+<p id="third-para" class="mybold" title="This is my third Paragraph">
+<span>Third Para : </span> some 10 lines of text copy here
+</p>
+ 
+ <p id="fourth-para" title="This is my third Paragraph">
+This is My Fourth Paragraph
+</p>
+<p id="fifth-para" title="This is my third Paragraph">
+This is My Fifth Paragraph
+</p>
+<p id="fifth-para" title="This is my third Paragraph">
+This is My Fifth Paragraph
+</p>
+<p id="fifth-para" title="This is my third Paragraph">
+This is My Fifth Paragraph
+</p>
+<p id="fifth-para" title="This is my third Paragraph">
+This is My Fifth Paragraph
+</p>
+<p id="fifth-para" title="This is my third Paragraph">
+This is My Fifth Paragraph
+</p>
+<p id="fifth-para" title="This is my third Paragraph">
+This is My Fifth Paragraph
+</p>
+ </div>
+ 
+ <div class="right-menu">
+<a href="#">Java Training</a>
+<a href="#">Python Training</a>
+<a href="#">Spring Training</a>
+<a href="#">Spring Boot Training</a>
+<a href="#">Angular Training</a>
+</div>
+
+</body>
+
+</head>
+</html>

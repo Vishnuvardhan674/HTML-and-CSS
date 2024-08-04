@@ -1,0 +1,66 @@
+<DOCKTYPE! html>
+<html>
+<head> 
+<title>Welcome to JLC</title>
+<style>
+#hmenu{
+border: 1px blue solid;
+color: red;
+font-size: 20px;
+width: 900px;
+height: 50px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 10px;
+margin-top: 30px;
+padding-top: 15px;
+padding-left: 25px;
+}
+span{
+padding: 10px;
+}
+.bodyContent{
+border: 1px red solid;
+width: 900px;
+height: 450px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 10px;
+}
+#myframe{
+width: 900px;
+height: 450px;
+border:1px red solid;
+}
+img{
+ 
+width: 350px;
+padding :20px;
+marign:10px;
+padding-bottom: 20px;
+padding-left:20px;
+
+}
+</style>
+
+<body>
+
+<h1>Welcome to JLC</h1>
+<div id="hmenu">
+<span><a href="C:\Users\hp\Desktop\JLC\HTML\courses\angular.html" target="myframe">Angular course</a></span>
+<span><a href="C:\Users\hp\Desktop\JLC\HTML\courses\react.html" target="myframe">React course</a></span>
+<span><a href="C:\Users\hp\Desktop\JLC\HTML\courses\mongoDB.html" target="myframe">mongoDB course</a></span>
+<span><a href="C:\Users\hp\Desktop\JLC\HTML\courses\nodejs.html" target="myframe">nodejs course</a></span>
+<span> <a href="https://www.coursecube.com" target="myframe">Open CourseCube </span>
+<span> <a href="https://www.facebook.com" target="myframe">Open Facebook </span>
+</div>
+
+ <div class="bodyContent">
+<iframe id="myframe" name="myframe" src="mycourses/welcome.html">
+</iframe>
+ 
+</div> 
+
+</body>
+</head>
+</html>

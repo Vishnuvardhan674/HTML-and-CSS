@@ -1,0 +1,52 @@
+<DOCKTYPE! html>
+<html>
+<head> 
+<title>Welcome to JLC</title>
+<style>
+a{
+padding:10px;
+front-size:25px;
+front-family:Cambria;
+line-height:1.8em;
+text-decoration:none;
+background-color:yellow;
+border:2px solid gray;
+border-radius: 5px;
+a:visited{
+color:yellow;
+}
+a:active{
+color:indigo;
+front-size:50px;
+}
+img{
+border:2px solid red;
+border-radius:15px;
+width: 350px;
+padding :20px;
+marign:10px;
+} 
+
+</style>
+
+<body>
+
+<h1>Welcome to JLC</h1>
+<div>
+<a href="C:\Users\hp\Desktop\JLC\HTML\course\angular.html"target="_self">Angular course</a>
+<a href="C:\Users\hp\Desktop\JLC\HTML\course\react.html"target="_self">React course</a>
+<a href="C:\Users\hp\Desktop\JLC\HTML\course\mongoDB.html"target="_self">mongoDB course</a>
+<a href="C:\Users\hp\Desktop\JLC\HTML\course\nodejs.html"target="_self">nodejs course</a>
+<br/>
+</div>
+<br/>
+<img src="C:\Users\hp\Desktop\JLC\HTML\img1.jpg" width="200"/>
+<img src="C:\Users\hp\Desktop\JLC\HTML\img3.jpg" width="200"/>
+<img src="C:\Users\hp\Desktop\JLC\HTML\img4.jpeg" width="200"/>
+ 
+ 
+
+</body>
+
+</head>
+</html>

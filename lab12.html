@@ -1,0 +1,130 @@
+<DOCKTYPE! html>
+<html>
+<head> 
+<title>Introduction to Registration form</title>
+<style>
+body {
+background-color: milkwhite;
+}
+.myRegTable{
+text-align: left;
+font-family: verdana;
+font-size: 20px;
+font-weight:bold;
+}
+input,select,textarea {
+color:red;
+font-family: verdana;
+font-size: 20px;
+font-weight:bold;
+padding: 5px 5px;
+margin: 8px 0;
+border: 1px solid blue;
+border-radius:5px;
+}
+input[type=submit] ,input[type=reset], input[type=button],button{
+color:green;
+font-family: verdana;
+font-size: 20px;
+font-weight:bold;
+padding: 10px 10px;
+margin: 22px 0;
+}
+input[type=radio],input[type=checkbox] {
+color:red;
+border: 5px red solid;
+width: 1.5em;
+height: 1em;
+}
+div{
+background-color:beige;
+width:75%;
+margin-left:150px;
+padding-left:20px;
+}
+</style>
+
+<body>
+ <div>
+<form action="register.jlc" method="POST" enctype="multipart/form-data">
+<table class="myRegTable">
+<caption> <h2> Registration Form</h2></caption>
+
+<tr>
+<td> <label for="mysid"> Student ID </label></td>
+<td> <input type="text" name="sid" id="mysid" size="20"> </td>
+</tr>
+
+<tr>
+<td><label for="fname" > Full Name </label></td>
+<td> <input type="text" id="fname" name="fname" /></td>
+</tr>
+
+<tr>
+<td> <label for="email" > Email ID </label></td>
+<td> <input type="text" id="email" name="email" /></td>
+</tr>
+
+<tr>
+<td> <label for="pword" > Password </label></td>
+<td> <input type="password" id="pword" name="pword" /></td>
+</tr>
+
+<tr>
+<td> <label for="courses" > Courses</label></td>
+<td>
+<input type="radio" id="courses" name="courses" vaue="Java"/> Java 
+<br/>
+<input type="radio" id="courses" name="courses" vaue="Python"/> Python
+<br/>
+<input type="radio" id="courses" name="courses" vaue="Angular"/> Angular
+<br/>
+<input type="radio" id="courses" name="courses" vaue="MongoDB"/>MongoDB 
+<br/>
+</td> </tr>
+
+<tr>
+<td> <label for="branch" > Branch</label></td>
+<td>
+<input type="checkbox" id="branch" name="branch" vaue="EEE"/>EEE 
+<input type="checkbox" id="branch" name="branch" vaue="ECE"/>ECE
+<input type="checkbox" id="branch" name="branch" vaue="CSE"/>CSE 
+<input type="checkbox" id="branch" name="branch" vaue="MME"/>MME
+</td>
+</tr>
+
+<tr>
+<td> <label for="graduation">Graduation</label></td>
+<td><input type="month" id="graduation" name="graduation"></td>
+</tr>
+ 
+<td> <label for="Mobile number">Phone</label></td>
+ <td><input type="text" name="Mobile number" id="mobile number" placeholder="Enter phone number"> </td>
+ </tr>
+ 
+ <tr>
+<td><label for="photo"> Upload Photo </label></td>
+<td><input type="file" id="photo" name="photo" /></td>
+ </tr>
+
+ <tr>
+<td><label for="myremarks"> Remarks </label></td>
+<td><textarea name="remarks" id="myremarks" cols="30" rows="5"></textarea></td>
+ </tr>
+ 
+ <tr>
+<td colspan="2">
+<input type="button" id="submt" value="Submit" />
+<input type="reset" id="reset" value="Clear Form" />
+<input type="submit" id="submit" value="Register Now" />
+<input type="hidden" name="mytoken" value="D1X5w9"/>
+</td>
+</tr>
+
+</table>
+</form>
+</div>
+
+</body>
+</head>
+</html>
